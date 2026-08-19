@@ -1,6 +1,23 @@
 # MPD Remote
 
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/featureGraphic.png" alt="MPD Remote" width="640">
+</p>
+
 MPD Remote is an open-source Android client for [Music Player Daemon (MPD)](https://www.musicpd.org/).
+
+## Screenshots
+
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" alt="Screenshot 1" width="200">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" alt="Screenshot 2" width="200">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" alt="Screenshot 3" width="200">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" alt="Screenshot 4" width="200">
+</p>
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5.png" alt="Screenshot 5" width="200">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" alt="Screenshot 6" width="200">
+</p>
 
 ## Features
 
