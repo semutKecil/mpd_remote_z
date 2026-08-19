@@ -6,7 +6,12 @@
   <img src="fastlane/metadata/android/en-US/images/featureGraphic.png" alt="MPD Remote" width="640">
 </p>
 
-MPD Remote is an open-source Android client for [Music Player Daemon (MPD)](https://www.musicpd.org/).
+MPD Remote is an open-source client for [Music Player Daemon (MPD)](https://www.musicpd.org/), built with [Flutter](https://flutter.dev/).
+
+## Platforms
+
+- **Tested:** Android, Windows
+- **Buildable but not yet tested:** iOS, macOS, Linux
 
 ## Screenshots
 
@@ -30,6 +35,15 @@ MPD Remote is an open-source Android client for [Music Player Daemon (MPD)](http
 - Control playback and volume
 - Continue playback with background media controls
 - Manage saved MPD server connections
+
+## Roadmap
+
+Planned features and improvements:
+
+- **Favorites** — save favorite songs for quick access
+- **Song shortcuts** — jump directly to an artist or album from a song's context menu
+- **Radio streaming** — listen to internet radio stations via the TuneIn API
+- **MPD stream to device** — stream audio directly from your MPD server to your phone
 
 ## Requirements
 

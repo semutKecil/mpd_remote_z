@@ -16,4 +16,10 @@ Getting started:
 - Make sure your MPD server is running and reachable on your network
 - Open the app and enter your server address, port, and credentials if required
 
+Coming soon:
+- Favorites to save your favorite songs for quick access
+- Quick shortcuts to jump to an artist or album from any song
+- Internet radio streaming via the TuneIn API
+- Stream audio directly from your MPD server to your phone
+
 MPD Remote is free and open source. Contributions, bug reports, and feature suggestions are welcome.
