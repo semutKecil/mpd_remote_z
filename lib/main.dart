@@ -162,7 +162,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return KeyboardStatusProvider(
       child: MaterialApp.router(
-        title: 'Mpd Remote',
+        title: 'MPD Remote',
         debugShowCheckedModeBanner: false,
         theme: _buildTheme(_colorScheme),
         routerConfig: _appRouter.config(
