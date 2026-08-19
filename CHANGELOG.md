@@ -5,15 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-### Added
-
-- Initial Fastlane configuration for Google Play metadata
-- Fastlane Fastfile with lanes for testing, building, and deploying
-- GPL-3.0 license file
-- Project README with feature graphic and screenshots
-
 ## [1.0.0] - 2026-08-19
 
 ### Added
