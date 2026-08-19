@@ -1,16 +1,28 @@
-# mpd_remote_z
+# MPD Remote
 
-A new Flutter project.
+MPD Remote is an open-source Android client for [Music Player Daemon (MPD)](https://www.musicpd.org/).
+
+## Features
+
+- Connect to an MPD server over the network
+- Browse albums, artists, tags, files, and playlists
+- Search your music library
+- View the currently playing track
+- Control playback and volume
+- Continue playback with background media controls
+- Manage saved MPD server connections
+
+## Requirements
+
+- An Android device
+- A running MPD server
+- Network access between the Android device and MPD server
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Install Flutter, then run:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```

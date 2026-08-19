@@ -1,0 +1,9 @@
+# The package name / application id of your Android app.
+package_name("com.github.semutkecil.mpd_remote_z")
+
+# The service account JSON key used to authenticate with Google Play.
+# Uncomment and set the path to your service account JSON key file.
+# json_key_file("path/to/your/service-account.json")
+
+# The bundle identifier of your iOS app (not used for Android).
+# app_identifier("com.example.app")

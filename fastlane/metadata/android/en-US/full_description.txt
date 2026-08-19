@@ -1,0 +1,19 @@
+MPD Remote is an open-source Android client for Music Player Daemon (MPD). Control your MPD server directly from your Android device over your local network.
+
+Features:
+- Connect to one or more MPD servers over the network
+- Browse your music library by albums, artists, tags, and files
+- View and manage playlists
+- Search your music collection
+- See what is currently playing with detailed track information
+- Control playback, repeat, random, single, and consume modes
+- Adjust volume from the app
+- Continue playback with background media controls
+- Save multiple server connections for easy switching
+
+Getting started:
+- Install MPD Remote on your Android device
+- Make sure your MPD server is running and reachable on your network
+- Open the app and enter your server address, port, and credentials if required
+
+MPD Remote is free and open source. Contributions, bug reports, and feature suggestions are welcome.

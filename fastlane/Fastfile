@@ -1,0 +1,30 @@
+# This file contains the Fastlane configuration for MPD Remote (Flutter).
+# See https://docs.fastlane.tools for more information on the available lanes.
+#
+# These lanes build the app with the Flutter toolchain, then hand the produced
+# artifacts to Fastlane for upload to Google Play.
+
+default_platform(:android)
+
+platform :android do
+  desc "Run the Flutter test suite"
+  lane :test do
+    sh("flutter", "test")
+  end
+
+  desc "Build the release app bundle (AAB)"
+  lane :build do
+    sh("flutter", "pub", "get")
+    sh("flutter", "build", "appbundle", "--release")
+  end
+
+  desc "Build and upload to the Google Play internal track"
+  lane :deploy do
+    sh("flutter", "pub", "get")
+    sh("flutter", "build", "appbundle", "--release")
+    upload_to_play_store(
+      track: "internal",
+      aab: "build/app/outputs/bundle/release/app-release.aab"
+    )
+  end
+end
