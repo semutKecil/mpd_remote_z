@@ -253,15 +253,6 @@ class SettingsPage extends StatelessWidget {
                       );
                       if (update) {
                         await audioService.custom.update();
-                        // Fluttertoast.showToast(
-                        //   msg: "Updating database",
-                        //   toastLength: Toast.LENGTH_SHORT,
-                        //   gravity: ToastGravity.BOTTOM,
-                        //   timeInSecForIosWeb: 1,
-                        //   backgroundColor: Colors.red,
-                        //   textColor: Colors.white,
-                        //   fontSize: 16.0,
-                        // );
                       }
                     },
                   ),
@@ -280,15 +271,6 @@ class SettingsPage extends StatelessWidget {
 
                       if (update) {
                         await audioService.custom.rescan();
-                        // Fluttertoast.showToast(
-                        //   msg: "Rescanning database",
-                        //   toastLength: Toast.LENGTH_SHORT,
-                        //   gravity: ToastGravity.BOTTOM,
-                        //   timeInSecForIosWeb: 1,
-                        //   backgroundColor: Colors.red,
-                        //   textColor: Colors.white,
-                        //   fontSize: 16.0,
-                        // );
                       }
                     },
                   ),

@@ -5,7 +5,6 @@ import 'package:audio_service/audio_service.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:mpd_remote_z/app_router.dart';
 import 'package:mpd_remote_z/model/player_state.dart';
 import 'package:mpd_remote_z/service/general_audio_handler.dart';
@@ -124,8 +123,9 @@ class _MyAppState extends State<MyApp> {
   final _appRouter = AppRouter();
 
   ThemeData _buildTheme(ColorScheme colorScheme) {
-    final baseTheme = ThemeData(
+    return ThemeData(
       colorScheme: _colorScheme,
+      fontFamily: 'sans serif',
       useMaterial3: true,
       listTileTheme: ListTileThemeData(
         selectedTileColor: _colorScheme.primary.withAlpha(30),
@@ -151,10 +151,6 @@ class _MyAppState extends State<MyApp> {
       dialogTheme: DialogThemeData(
         backgroundColor: _colorScheme.primaryContainer,
       ),
-    );
-
-    return baseTheme.copyWith(
-      textTheme: GoogleFonts.latoTextTheme(baseTheme.textTheme),
     );
   }
 

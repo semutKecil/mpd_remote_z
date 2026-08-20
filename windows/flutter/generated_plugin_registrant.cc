@@ -7,7 +7,6 @@
 #include "generated_plugin_registrant.h"
 
 #include <audio_service_win/audio_service_win_plugin_c_api.h>
-#include <flutter_volume_controller/flutter_volume_controller_plugin_c_api.h>
 #include <screen_retriever_windows/screen_retriever_windows_plugin_c_api.h>
 #include <url_launcher_windows/url_launcher_windows.h>
 #include <window_manager/window_manager_plugin.h>
@@ -15,8 +14,6 @@
 void RegisterPlugins(flutter::PluginRegistry* registry) {
   AudioServiceWinPluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("AudioServiceWinPluginCApi"));
-  FlutterVolumeControllerPluginCApiRegisterWithRegistrar(
-      registry->GetRegistrarForPlugin("FlutterVolumeControllerPluginCApi"));
   ScreenRetrieverWindowsPluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("ScreenRetrieverWindowsPluginCApi"));
   UrlLauncherWindowsRegisterWithRegistrar(
