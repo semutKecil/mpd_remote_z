@@ -26,6 +26,20 @@ MPD Remote is an open-source client for [Music Player Daemon (MPD)](https://www.
   <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" alt="Screenshot 6" width="200">
 </p>
 
+### Screenshot credits
+
+The album art shown in the screenshots above is used under the [Creative Commons](https://creativecommons.org/licenses/) license. Credit goes to the following artists, via the [Free Music Archive](https://freemusicarchive.org/):
+
+**Rolemusic**
+- [The Pirate and The Dancer](https://freemusicarchive.org/music/Rolemusic/The_Pirate_And_The_Dancer)
+- [The Black Dot](https://freemusicarchive.org/music/Rolemusic/The_Black_Dot)
+
+**Alex Morgan**
+- [Horror & Dark Tension](https://freemusicarchive.org/music/alex-morgan/horror-dark-tension)
+- [Lofi Study Beats](https://freemusicarchive.org/music/alex-morgan/lofi-study-beats)
+- [Phonk & Drift](https://freemusicarchive.org/music/alex-morgan/phonk-drift)
+- [Trap & Hip-Hop Beats](https://freemusicarchive.org/music/alex-morgan/trap-hip-hop-beats)
+
 ## Features
 
 - Connect to an MPD server over the network
